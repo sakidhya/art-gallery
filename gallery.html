@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ArtGallery Full Background</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header>
+    <div class="logo">ArtGallery</div>
+    <nav>
+      <a href="index.html" >Home</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="upload.html">Upload</a>
+    </nav>
+  </header>
+
+    <section class="gallery-section">
+        <div class="container">
+            <h1 class="gallery-title">Art Gallery</h1>
+            <p class="gallery-subtitle">Explore our complete collection of contemporary artworks</p>
+
+            <div class="search-container">
+                <input type="search" placeholder="Search artworks or artists..." class="search-input" />
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All (6)</button>
+                <button class="filter-btn" data-filter="abstract">Abstract (2)</button>
+                <button class="filter-btn" data-filter="landscape">Landscape (2)</button>
+                <button class="filter-btn" data-filter="portrait">Portrait (1)</button>
+                <button class="filter-btn" data-filter="sculpture">Sculpture (1)</button>
+            </div>
+        </div>
+    </section>
+    <div class="gallery-grid">
+        <!-- Card 1 -->
+        <div class="gallery-card" data-category="abstract">
+            <img src="./images/harmony (1).jpg" alt="Abstract Harmony" />
+            <div class="card-content">
+                <h3>Abstract Harmony</h3>
+                <p class="artist">Elena Rodriguez</p>
+                <p><strong>Medium:</strong> Mixed Media on Canvas</p>
+                <p><strong>Dimensions:</strong> 36 x 24 inches</p>
+                <p><strong>Year:</strong> 2024</p>
+                <div class="stats">
+                    <span>❤️ 127</span>
+                    <span>👁️ 856</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="gallery-card" data-category="landscape">
+            <img src="./images/landspace.jpg" alt="Serene Landscape" />
+            <div class="card-content">
+                <h3>Serene Landscape</h3>
+                <p class="artist">Marcus Chen</p>
+                <p><strong>Medium:</strong> Oil on Canvas</p>
+                <p><strong>Dimensions:</strong> 48 x 30 inches</p>
+                <p><strong>Year:</strong> 2023</p>
+                <div class="stats">
+                    <span>❤️ 89</span>
+                    <span>👁️ 642</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="gallery-card" data-category="portrait">
+            <img src="./images/port.avif" alt="Portrait Study" />
+            <div class="card-content">
+                <h3>Portrait Study</h3>
+                <p class="artist">Sofia Martinez</p>
+                <p><strong>Medium:</strong> Oil on Canvas</p>
+                <p><strong>Dimensions:</strong> 24 x 36 inches</p>
+                <p><strong>Year:</strong> 2024</p>
+                <div class="stats">
+                    <span>❤️ 156</span>
+                    <span>👁️ 934</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="gallery-card" data-category="sculpture">
+            <img src="./images/sculpture.jpg" alt="Modern Sculpture" />
+            <div class="card-content">
+                <h3>Modern Sculpture</h3>
+                <p class="artist">David Kim</p>
+                <p><strong>Medium:</strong> Bronze and Steel</p>
+                <p><strong>Dimensions:</strong> 12 x 8 x 6 inches</p>
+                <p><strong>Year:</strong> 2024</p>
+                <div class="stats">
+                    <span>❤️ 78</span>
+                    <span>👁️ 415</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="gallery-card" data-category="abstract">
+            <img src="./images/geometric.jpeg" alt="Geometric Forms" />
+            <div class="card-content">
+                <h3>Geometric Forms</h3>
+                <p class="artist">Ana Petrova</p>
+                <p><strong>Medium:</strong> Acrylic on Canvas</p>
+                <p><strong>Dimensions:</strong> 30 x 30 inches</p>
+                <p><strong>Year:</strong> 2023</p>
+                <div class="stats">
+                    <span>❤️ 102</span>
+                    <span>👁️ 537</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="gallery-card" data-category="landscape">
+            <img src="./images/landspace.jpg" alt="Mountain Vista" />
+            <div class="card-content">
+                <h3>Mountain Vista</h3>
+                <p class="artist">James Wilson</p>
+                <p><strong>Medium:</strong> Watercolor</p>
+                <p><strong>Dimensions:</strong> 22 x 28 inches</p>
+                <p><strong>Year:</strong> 2024</p>
+                <div class="stats">
+                    <span>❤️ 97</span>
+                    <span>👁️ 423</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="more-search">
+       <a href="">view more→</a>
+    </div>
+</body>
+</html>
